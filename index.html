@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitzi Rios</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/indexCSS/index.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header id="headerHome">
+        <div class="containerIMG">
+            <img id="imgLogo" src="./src/assets/LogoBlack.png" alt="Mitzi Rios">
+        </div>
+
+        <div class="toolsContainer">
+            <label class="btn" id="animation-On" for="toggle"><i class="fa-solid fa-toggle-on"></i></label></i>
+            <input type="checkbox" id="toggle">
+
+            <label class="btn" id="darkMode" for="checkDark"><i class="fa-solid fa-moon"></i></label></i>
+            <input type="checkbox" id="checkDark">
+
+            <a class="btn" id="btnEn" href="#">EN</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="socialContainer">
+            <a class="btn" href="https://github.com/MitziR02" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+            <a class="btn" href="https://www.linkedin.com/in/mitzi-rios/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+            <a class="btn" href="mailto:mitzi.rios.contact@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+            <a class="btn" href="https://wa.me/5217822534853" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i></a>
+        </section>
+        
+        <section class="homeContainer">
+            <div class="textHome">
+                <h1 class="welcome">¡Hola! Soy Mitzi Rios</h1>
+                <h2 class="jobTitle">Front-End Jr</h2>
+                <p class="text">Si buscas un profesional que pueda aportar una combinación única de conocimientos técnicos, experiencia en diseño UX y habilidades en desarrollo front-end, ¡no dudes en contactarme!</p>
+            </div>
+            <nav class="menuHome">
+                <ul class="listHome">
+                    <li><a href="#"><i class="fa-regular fa-circle"></i> Proyectos</a></li>
+                    <li><a href="#"><i class="fa-regular fa-circle"></i> Sonre Mi</a></li>
+                    <li><a href="#"><i class="fa-regular fa-circle"></i> Formación</a></li>
+                    <li><a href="#"><i class="fa-regular fa-circle"></i> Experiencia</a></li>
+                    <li><a href="#"><i class="fa-regular fa-circle"></i> Contacto</a></li>
+                </ul>
+            </nav>
+        </section>
+    </main>
+
+    <div id="backgroundContainer">
+        <video muted autoplay loop><source src="./src/assets/fondo.mp4" type="video/mp4"></video>
+        <div id="layer"></div>
+    </div>
+
+    <script src="./src/js/functions.js"></script>
+</body>
+</html>

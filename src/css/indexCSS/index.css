@@ -1,0 +1,115 @@
+/*------------- header ------------- */
+
+#headerHome{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2rem 0 0;
+}
+
+header img, .toolsContainer{
+    width: 15rem;
+}
+
+.toolsContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+#toggle, #checkDark{
+    display: none;
+}
+
+.btn{
+    font-size: 1.7rem;
+    color: var(--aqua);
+}
+
+#btnEn{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: var(--grey);
+    transition: 0.3s;
+}
+
+/*------------- main ------------- */
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+}
+
+.socialContainer, .homeContainer, .textHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialContainer, .homeContainer{
+    background: var(--boxesColor);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.514);
+    backdrop-filter: blur(7.8px);
+    height: 90%;
+}
+
+.socialContainer {
+    width: 5%;
+    justify-content: space-around;
+}
+
+.homeContainer {
+    width: 90%;
+}
+
+.welcome, .jobTitle, .text {
+    margin-bottom: 2rem;
+}
+
+.welcome {
+    font-size: 5rem;
+    font-family: var(--fontTitle);
+}
+
+.jobTitle {
+    font-size: 2rem;
+    color: var(--aqua);
+    font-weight: bold;
+}
+
+.text {
+    width: 60%;
+    font-size: 1.4rem;
+}
+
+.menuHome {
+    width: 70%;
+}
+
+.listHome {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.listHome a {
+    text-decoration: none;
+    color: var(--aqua);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.listHome  a:hover{
+    color: var(--grey);
+}
+
+.listHome li:hover{
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
+}
+ 
