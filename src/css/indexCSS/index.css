@@ -14,6 +14,7 @@ header img, .toolsContainer{
 .toolsContainer{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 #toggle, #checkDark{
@@ -23,6 +24,10 @@ header img, .toolsContainer{
 .btn{
     font-size: 1.7rem;
     color: var(--aqua);
+}
+
+#animation-On{
+    font-size: 2.2rem;
 }
 
 #btnEn{
@@ -96,6 +101,7 @@ main {
 .listHome {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .listHome a {

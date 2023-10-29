@@ -1,0 +1,53 @@
+@media screen and (max-width: 1250px){
+    .listHome li{
+        margin: 0 1rem 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    main{
+        flex-direction: column;
+    }
+
+    .socialContainer{
+        height: 3rem;
+        width: 90%;
+        flex-direction:row
+    }
+}
+
+@media screen and (max-width: 800px){
+    #imgLogo{
+        display: none;
+    }
+
+    #headerHome{
+        justify-content: center;
+    }
+
+    .toolsContainer{
+        margin: 0rem 0 1rem;
+    }
+
+    .welcome, .jobTitle, .text, .menuHome{
+        width: 80%;
+    }
+
+    .text{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .welcome{
+        font-size: 3rem;
+    }
+
+    .jobTitle{
+        font-size: 1.5rem;
+    }
+
+    .text{
+        font-size: 1rem;
+    }
+}

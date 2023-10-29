@@ -4,11 +4,11 @@ document.getElementById('toggle').addEventListener('change', function() {
     if (this.checked) {
         layer.style.opacity = "1";
 
-        icon.innerHTML='<i class="fa-solid fa-toggle-off"></i>';
+        icon.innerHTML='<iconify-icon icon="material-symbols:toggle-off-outline"></iconify-icon>';
     } else {
         layer.style.opacity = "0.8";
 
-        icon.innerHTML='<i class="fa-solid fa-toggle-on"></i>';
+        icon.innerHTML='<iconify-icon icon="material-symbols:toggle-on"></iconify-icon>';
     }
 });
 
@@ -26,7 +26,7 @@ document.getElementById('checkDark').addEventListener('change', function() {
 
         imgElement.src = "./src/assets/LogoLight.png";
 
-        icon.innerHTML='<i class="fa-regular fa-sun"></i>';
+        icon.innerHTML='<iconify-icon icon="material-symbols:sunny-outline-rounded"></iconify-icon>';
     } else {
 
         root.style.setProperty('--grey', '#30323c');
@@ -36,6 +36,6 @@ document.getElementById('checkDark').addEventListener('change', function() {
 
         imgElement.src = "./src/assets/LogoBlack.png";
 
-        icon.innerHTML='<i class="fa-solid fa-moon"></i>';
+        icon.innerHTML='<iconify-icon icon="solar:moon-bold"></iconify-icon>';
     }
 });
