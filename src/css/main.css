@@ -36,5 +36,6 @@ video{
 
 #layer{
     background: var(--white);
-    opacity: 0.8;
+    opacity: 0;
 }   
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/nav.css">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <main>
+        <section class="header">
+
+            <div class="toolsContainer">
+                <label class="btn" id="animation-On" for="toggle"><iconify-icon icon="material-symbols:toggle-on"></iconify-icon></label></i>
+                <input type="checkbox" id="toggle" class="checkDisplay">
+    
+                <label class="btn" id="darkMode" for="checkDark"><iconify-icon icon="solar:moon-bold"></iconify-icon></label></i>
+                <input type="checkbox" id="checkDark" class="checkDisplay">
+    
+                <a class="btn" id="btnEn" href="#">EN</a>
+            </div>
+    
+            <nav class="menu">
+                <ul class="listNav">
+                    <li><a href="./index.html"><iconify-icon icon="solar:circle-bottom-up-linear"></iconify-icon> Inicio</a></li>
+                    <li><a href="#"><iconify-icon icon="solar:circle-bottom-up-linear"></iconify-icon> Proyectos</a></li>
+                    <li><a href="#"><iconify-icon icon="solar:circle-bottom-up-linear"></iconify-icon> Sonre Mi</a></li>
+                    <li><a href="#"><iconify-icon icon="solar:circle-bottom-up-linear"></iconify-icon> Formación</a></li>
+                    <li><a href="#"><iconify-icon icon="solar:circle-bottom-up-linear"></iconify-icon> Experiencia</a></li>
+                    <li><a href="#"><iconify-icon icon="solar:circle-bottom-up-linear"></iconify-icon> Contacto</a></li>
+                </ul>
+            </nav>
+        </section>
+        
+    </main>
+
+    <div id="backgroundContainer">
+        <video muted autoplay loop><source id="videoBackG"  src="./src/assets/videoW.mp4" type="video/mp4"></video>
+        <div id="layer"></div>
+    </div>
+
+    <script src="./src/js/functions.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+</body>
+</html>

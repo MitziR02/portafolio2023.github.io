@@ -9,7 +9,7 @@ function toggleAnimation() {
         layer.style.opacity = "1";
         icon.innerHTML='<iconify-icon icon="material-symbols:toggle-off-outline"></iconify-icon>';
     } else {
-        layer.style.opacity = "0.8";
+        layer.style.opacity = "0";
         icon.innerHTML='<iconify-icon icon="material-symbols:toggle-on"></iconify-icon>';
     }
     
@@ -22,6 +22,7 @@ document.getElementById('checkDark').addEventListener('change', toggleDarkMode);
 
 function toggleDarkMode() {
     var icon = document.getElementById("darkMode");
+    var videoB = document.getElementById('videoBackG');
     let root = document.documentElement;
     let imgElement = document.getElementById('imgLogo');
     let isChecked = document.getElementById('checkDark').checked;
@@ -34,10 +35,14 @@ function toggleDarkMode() {
         root.style.setProperty('--white', '#30323c');
         root.style.setProperty('--aqua', '#78cac5'); 
         root.style.setProperty('--boxesColor', '#1d1c1c85');
-
-        imgElement.src = "./src/assets/LogoLight.png";
+        
+        videoB.setAttribute('src', './src/assets/videoB.mp4');
+        let videoElement = videoB.parentElement;
+        videoElement.load(); 
 
         icon.innerHTML='<iconify-icon icon="material-symbols:sunny-outline-rounded"></iconify-icon>';
+
+        imgElement.src = "./src/assets/LogoLight.png";
 
     } else {
 
@@ -46,9 +51,13 @@ function toggleDarkMode() {
         root.style.setProperty('--aqua', '#048a81'); 
         root.style.setProperty('--boxesColor', '#ffffff54');
 
-        imgElement.src = "./src/assets/LogoBlack.png";
+        videoB.setAttribute('src', './src/assets/videoW.mp4');
+        let videoElement = videoB.parentElement;
+        videoElement.load(); 
 
         icon.innerHTML='<iconify-icon icon="solar:moon-bold"></iconify-icon>';
+
+        imgElement.src = "./src/assets/LogoBlack.png";
     }
 }
 
