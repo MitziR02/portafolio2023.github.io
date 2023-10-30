@@ -10,7 +10,23 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat+Alternates:wght@300&display=swap" rel="stylesheet">
 </head>
-<body>
+<body> 
+
+    <header id="headerHome">
+        <div class="containerIMG">
+            <img id="imgLogo" src="./src/assets/LogoBlack.png" alt="Mitzi Rios">
+        </div>
+
+        <div class="toolsContainer">
+            <label class="btn" id="animation-On" for="toggle"><iconify-icon icon="material-symbols:toggle-on"></iconify-icon></label></i>
+            <input type="checkbox" id="toggle">
+
+            <label class="btn" id="darkMode" for="checkDark"><iconify-icon icon="solar:moon-bold"></iconify-icon></label></i>
+            <input type="checkbox" id="checkDark">
+
+            <a class="btn" id="btnEn" href="#">EN</a>
+        </div>
+    </header>
 
     <main class="mainContainer">
 
@@ -28,6 +44,7 @@
         <div id="layer"></div>
     </div>
 
+    <script src="./js/functions.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
     
 </body>
