@@ -32,9 +32,9 @@ function toggleDarkMode() {
     if (isChecked) {
 
         root.style.setProperty('--grey', '#fffaf5');
-        root.style.setProperty('--white', '#30323c');
+        root.style.setProperty('--white', '#121212');
         root.style.setProperty('--aqua', '#78cac5'); 
-        root.style.setProperty('--boxesColor', '#1d1c1c85');
+        root.style.setProperty('--boxesColor', '#0c0c0c85');
         
         videoB.setAttribute('src', './src/assets/videoB.mp4');
         let videoElement = videoB.parentElement;
@@ -46,7 +46,7 @@ function toggleDarkMode() {
 
     } else {
 
-        root.style.setProperty('--grey', '#30323c');
+        root.style.setProperty('--grey', '#121212');
         root.style.setProperty('--white', '#fffaf5');
         root.style.setProperty('--aqua', '#048a81'); 
         root.style.setProperty('--boxesColor', '#ffffff96');

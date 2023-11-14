@@ -33,6 +33,10 @@
     .text{
         font-size: 1.2rem;
     }
+
+    .homeContainer{
+        height: 80%;
+    }
 }
 
 @media screen and (max-width: 370px) {
