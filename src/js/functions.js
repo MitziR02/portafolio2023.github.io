@@ -49,7 +49,7 @@ function toggleDarkMode() {
         root.style.setProperty('--grey', '#30323c');
         root.style.setProperty('--white', '#fffaf5');
         root.style.setProperty('--aqua', '#048a81'); 
-        root.style.setProperty('--boxesColor', '#ffffff54');
+        root.style.setProperty('--boxesColor', '#ffffff96');
 
         videoB.setAttribute('src', './src/assets/videoW.mp4');
         let videoElement = videoB.parentElement;
