@@ -4,7 +4,7 @@
     --white: #fffaf5;
     --aqua: #048a81;
     --lightAqua: #78cac5;
-    --boxesColor: #ffffff96;
+    --boxesColor: #0c0c0c85;
 
     --fontTitle:'Bebas Neue', sans-serif;
     --fontBody: 'Montserrat Alternates', sans-serif;
@@ -12,7 +12,8 @@
 
 body{
     font-family: var(--fontBody);
-    color: var(--grey);
+    color: var(--white);
+    background: var(--grey);
 }
 
 
@@ -34,8 +35,5 @@ video{
     display: block;
 }
 
-#layer{
-    background: var(--white);
-    opacity: 0;
-}   
+ 
 

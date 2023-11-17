@@ -11,7 +11,7 @@ main {
     height: 95%;
     background: var(--boxesColor);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.514);
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.514);
     backdrop-filter: blur(7.8px);
 }
 
@@ -31,7 +31,7 @@ main {
 
 .btn, .listNav a {
     font-size: 1.3rem;
-    color: var(--aqua);
+    color: var(--lightAqua);
     text-decoration: none;
 }
 
@@ -46,7 +46,7 @@ main {
 .btn:hover, .listNav a:hover, .listNav li:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
-    color: var(--grey);
+    color: var(--white);
     cursor: pointer;
 }
 

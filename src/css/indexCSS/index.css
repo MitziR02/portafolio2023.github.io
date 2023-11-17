@@ -23,7 +23,7 @@ header img, .toolsContainer{
 
 .btn{
     font-size: 1.7rem;
-    color: var(--aqua);
+    color: var(--lightAqua);
 }
 
 #animation-On{
@@ -38,7 +38,7 @@ header img, .toolsContainer{
 .btn:hover{
     cursor: pointer;
     transform: scale(1.1);
-    color: var(--grey);
+    color: var(--white);
     transition: 0.3s;
 }
 
@@ -60,7 +60,7 @@ main {
 .socialContainer, .homeContainer{
     background: var(--boxesColor);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.514);
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.514);
     backdrop-filter: blur(7.8px);
     height: 90%;
 }
@@ -85,7 +85,7 @@ main {
 
 .jobTitle {
     font-size: 2rem;
-    color: var(--aqua);
+    color: var(--lightAqua);
     font-weight: bold;
 }
 
@@ -106,12 +106,12 @@ main {
 
 .listHome a {
     text-decoration: none;
-    color: var(--aqua);
+    color: var(--lightAqua);
     font-size: 1.3rem;
     font-weight: bold;
 }
 .listHome  a:hover{
-    color: var(--grey);
+    color: var(--white);
 }
 
 .listHome li:hover{
